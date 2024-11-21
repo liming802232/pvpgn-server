@@ -43,17 +43,17 @@ PvPGN 是一款免费开源的跨平台服务器软件，支持 Battle.net 和 W
 - **沙丘2000（Dune 2000）**: 1.06
 - **帝王：沙丘之战（Emperor: Battle for Dune）**: 1.09
 
-\* 如果不通过[W3L]（https://github.com/w3lh/w3l）等工具进行客户端修改以禁用服务器签名验证，WarCraft 3客户端将无法连接到PvPGN服务器。
+\* 如果不通过 [W3L](https://github.com/w3lh/w3l) 等工具进行客户端修改以禁用服务器签名验证，WarCraft 3客户端将无法连接到PvPGN服务器。
 \* 由于协议变更，从 1.18 补丁开始的《星际争霸》客户端将不受 PvPGN-PRO 支持。为了与机器人软件兼容，包含了一个 1.18.0 版本检查条目。
 
 ## 支持Support
-[创建一个问题]（https://github.com/pvpgn/pvpgn-server/issues）如果您对PvPGN-PRO有任何问题、建议或其他要说的。请注意，D2GS不是PvPGN项目的一部分，因此在这里不受支持。
+[创建一个问题](https://github.com/pvpgn/pvpgn-server/issues) 如果您对PvPGN-PRO有任何问题、建议或其他要说的。请注意，D2GS不是PvPGN项目的一部分，因此在这里不受支持。
 在获取日志并发布之前，在“bnet. conf”中设置“loglevels=致命、fatal,错误、error,警告、warn,信息、info,调试、debug,跟踪、trace` ”。
 ## Development
-提交拉取请求以为该项目做出贡献。尽可能利用C++11个功能并遵守[C++核心指南]（https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md）。
+提交拉取请求以为该项目做出贡献。尽可能利用C++11个功能并遵守[C++核心指南](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md) 。
 
 ## Building
-有关已确认与PvPGN一起使用的操作系统和编译器，请参阅[docs/ports.md]（https://github.com/pvpgn/pvpgn-server/blob/master/docs/ports.md）。任何支持WinAPI或POSIX的操作系统，以及任何符合C++11的编译器都应该能够构建PvPGN。CMake文件已被硬编码，以拒绝比Visual Studio 2015和GCC 5.1更早的编译器。
+有关已确认与PvPGN一起使用的操作系统和编译器，请参阅  [docs/ports.md](https://github.com/pvpgn/pvpgn-server/blob/master/docs/ports.md)  任何支持WinAPI或POSIX的操作系统，以及任何符合C++11的编译器都应该能够构建PvPGN。CMake文件已被硬编码，以拒绝比Visual Studio 2015和GCC 5.1更早的编译器。
 
 #### Windows
 使用 [Magic Builder](https://github.com/pvpgn/pvpgn-magic-builder).
